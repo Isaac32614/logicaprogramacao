@@ -1,0 +1,42 @@
+#1 
+a = int(input("Digite um número qualquer"))
+listaN = []
+
+
+def Ex_01():
+    i = 0
+    while i < a:
+        if (i%2) != 0 and (i%5) == 0:
+            listaN.append(i)
+            i += 1
+        else:
+            i += 1
+        return listaN
+
+
+print(Ex_01())
+
+#2
+N = int(input("Insira o tamanho desejado da lista: "))
+lista = []
+def Ex_02():
+  i = 0
+  while i < N:
+    num = input()
+    lista.append(num)
+    i += 1
+  return lista
+print(Ex_02())
+
+#4
+def Ex_04():
+  entrada = input("Digite 'a' para PSG, 'b' para Bayern e 'd' para finalizar o programa: ")
+  while entrada != 'd':
+    if entrada == 'a':
+      print("Psg")
+    elif entrada == 'b':
+      print("Bayern")
+    else:
+      print("Invalido")
+    entrada = input()
+Ex_04()
