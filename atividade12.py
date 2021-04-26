@@ -29,3 +29,11 @@ lista = ["seu", "joao", "esta", "aqui"]
 lista_str = ' '.join(map(str, lista))
 print(lista_str)
 
+#5
+
+lista = [3,8,9,1,0,2]
+for i in lista:
+    if i%2 == 0:
+        print(i)
+        
+ 
